@@ -1,0 +1,38 @@
+#include <stdio.h>
+int fact(int num);
+int npr(n,r);
+void main()
+{
+    int n, r, npr_var;
+ 
+    // printf("Enter the value of n:");
+    scanf("%d", &n);
+    // printf("\nEnter the value of r:");
+    scanf("%d", &r);
+    
+    /* nPr is also known as P(n,r), the formula is:
+     * P(n,r) = n! / (n - r)! For 0 <= r <= n.
+     */
+    printf("%d",npr(n,r));
+}
+int npr(n,r){
+    return fact(n) / fact(n - r);
+}
+// Function for calculating factorial
+int fact(int num)
+{
+    int k = 1, i;
+    // factorial of 0 is 1
+    if (num == 0)
+    {
+        return(k);
+    }
+    else
+    {
+        for (i = 1; i <= num; i++)
+    {
+            k = k * i;
+	}
+    }
+    return(k);
+}

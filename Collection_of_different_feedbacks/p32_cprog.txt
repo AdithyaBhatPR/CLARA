@@ -1,0 +1,1 @@
+* Change 'j := 1' to 'j := 0' at line 20 (cost=1.0)

@@ -1,0 +1,1 @@
+* Change 'flag_var := 0' to 'flag_var := 1' at line 22 (cost=1.0)

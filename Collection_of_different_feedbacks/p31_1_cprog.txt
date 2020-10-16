@@ -1,0 +1,1 @@
+* Change 'number := ite(>([](number, j), [](number, k)), ArrayAssign(number, j, [](number, j)), number)' to 'number := ite(>([](number, j), [](number, k)), ArrayAssign(ArrayAssign(number, j, [](number, k)), k, [](number, j)), number)' inside the body of the 'for' loop beginning at line 12 (cost=5.0)

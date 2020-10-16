@@ -1,0 +1,6 @@
+#!/home/abhay/Summer_of_System_2020/clara/project_env/bin/python
+# EASY-INSTALL-DEV-SCRIPT: 'clara==1.0','clara'
+__requires__ = 'clara==1.0'
+__import__('pkg_resources').require('clara==1.0')
+__file__ = '/home/abhay/Summer_of_System_2020/clara/bin/clara'
+exec(compile(open(__file__).read(), __file__, 'exec'))
